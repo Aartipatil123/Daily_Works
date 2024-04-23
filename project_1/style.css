@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  body {
+    background: linear-gradient(to right, pink, #f7b538, red);
+  }
+  
+  .dramaResult p{
+    margin: 10px;
+    padding: 10px;
+    font-size: 32px;
+    color: green;
+  }
