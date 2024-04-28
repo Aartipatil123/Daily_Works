@@ -1,0 +1,107 @@
+body {
+	padding: auto;
+	box-sizing: border-box;
+	background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20201023/pngtree-abstract-geometric-green-background-with-fresh-gradient-banner-image_432556.jpg");
+  }
+  #can1 {
+	width: 400px;
+	height: 300px;
+	border: 3px solid black;
+	align-items: center;
+	margin: auto;
+	flex-basis: 40%;
+	margin-bottom: 20px;
+	background-color: white;
+  }
+  .col {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	flex: 1;
+  }
+  #can2 {
+	width: 400px;
+	height: 300px;
+	border: 3px solid black;
+	align-items: center;
+	margin: auto;
+	flex-basis: 40%;
+	margin-bottom: 20px;
+	background-color: white;
+  }
+  #gener {
+	float: right;
+	margin-right: 400px;
+  }
+  #gner {
+	float: right;
+	margin-right: 600px;
+  }
+  .btn {
+	background-color: black;
+	border: none;
+	color: white;
+	padding: 12px 30px;
+	cursor: pointer;
+	font-size: 20px;
+	float: right;
+	margin-top: 30px;
+  }
+  .btn:hover {
+	background-color: RoyalBlue;
+  }
+  .custom-file-input::-webkit-file-upload-button {
+	visibility: hidden;
+  }
+  #inputd {
+	content: "Select some files";
+	display: inline-block;
+	background: linear-gradient(top, #f9f9f9, #e3e3e3);
+	border: 1px solid #999;
+	border-radius: 3px;
+	padding: 5px 8px;
+	outline: none;
+	white-space: nowrap;
+	cursor: pointer;
+	text-shadow: 1px 1px #fff;
+	font-weight: 700;
+	font-size: 10pt;
+	margin-left: 50px;
+  }
+  #inputd:hover::before {
+	border-color: black;
+  }
+  #inputd:active::before {
+	background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+  }
+  .logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Arial", sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	color: green;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 10px;
+	border-radius: 5px;
+	background: repeating-linear-gradient(
+	  45deg,
+	  #ff4500,
+	  white 20%,
+	  #ffd700 20%,
+	  #ffff00 20%
+	);
+  }
+  
+  .logo:hover {
+	background-color: #ccc;
+	color: #fff;
+	transform: scale(1.05);
+	transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  }
+  h1
+  {
+	text-align:center;
+  }
