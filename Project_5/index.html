@@ -1,0 +1,134 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Susanna's Notes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>What I've Learned About HTML and CSS</h1>
+  <div class= "lesson">
+    <h2>Lesson 1</h2>
+    <div class="concept-title">
+    World Wide Web
+      <div class="concept-description">
+      <p>The web is basically made up of a bunch of computers that communicate with each other. Majority of the content on the web is simply a collection of HTML <em>(Hypertext Markup Language)</em> documents.
+      </p>
+        <div class="image"><img src="http://blogs-images.forbes.com/jacobmorgan/files/2014/05/internet-of-things-2.jpg"></div>
+      </div>
+    </div>
+    <div class="concept-title">
+    How it Works?
+      <div class="concept-description">
+      <p>Your browser makes HTTP<em> (Hypertext Transfer Protocol)</em> requests via the Internet to servers (servers are computers that are designed to live in drawers and host files), that respond to the requests with files that your browser displays.
+      </p>
+      </div>
+    </div>
+     <div class="concept-title">
+    Elements, Tags and Attributes
+      <div class="concept-description">
+      <p>HTML elements tell a web browser how to display content in a web page. HTML elements usually have opening and closing tags, with content between them, that tell the browser the type of each element. Attributes give additional information to the browser and always have a value. For example, the ancor <span class="code">&lt;a&gt;</span>  tag, which is used to add links, takes an attribute <span class="code">href</span>, that defines a URL to link to. The image tag <span class="code">&lt;img&gt;</span> , which is used to include images, takes the attribute <span class="code">src</span> , that defines the source/URL of the image.
+      </p>
+      </div>
+    </div>
+     <div class="concept-title">
+    Whitespace
+      <div class="concept-description">
+      <p>In HTML all whitespace - new lines, tabs, spaces - turn into a single space. In order to create line break, you need to use, for example, a break tag <span class="code">&lt;br&gt;</span> or a paragraph tag <span class="code">&lt;p&gt;</span>. 
+NOTE: Since the <span class="code">&lt;p&gt;</span> tag is not a void tag like the <span class="code">&lt;br&gt;</span> tag, it needs to have a closing tab as well.
+      </p>
+      </div>
+    </div>
+     <div class="concept-title">
+    Span and Div
+      <div class="concept-description">
+      <p><span class="code">&lt;Span&gt;</span> and <span class="code">&lt;div&gt;</span> elements both simply contain content, but you can add styles them by using CSS. The important difference between the two is that <span class="code">&lt;span&gt;</span> elements are inline and <span class="code">&lt;div&gt;</span> elements are block.
+      </p>
+      </div>
+    </div>
+    <h2>Lesson 2</h2>
+    <div class="concept-title">
+    HTML
+      <div class="concept-description">
+      <p>HTML controls the structure of a web page. Each HTML tag creates an element that the browser uses to display the page. An element is created from the starting tag to the end tag, and everything in between is content. The content can be text, another element or even empty. Each tag has a name, that defines what kind of element will be created. It could be a paragraph, a document division or an image. Each tag can also have attributes with values.
+      </p>
+        <div class="image"><img src="http://homepages.wmich.edu/~dvc1604/buildsite/images/2.jpg"></div>
+      </div>
+    </div>
+    <div class="concept-title">
+    CSS
+      <div class="concept-description">
+      <p>CSS controls the style and how the elements look on a page. For example, the size of the font, colour, position, background, boarders etc.
+      </p>
+      </div>
+    </div>
+     <div class="concept-title">
+    DOM
+      <div class="concept-description">
+        <p>DOM <em>(Document Object Model)</em> refers to the tree-like structure of a page. In a browser, the tree-like structure shows up as a series of nested boxes.
+      </p>
+      </div>
+    </div>
+     <div class="concept-title">
+    Boxes Everywhere
+      <div class="concept-description">
+      <p>Everything in a webpage is actually a box. (There is also grid in the background that helps make sure everything is properly aligned).<br>
+<em>Programmer advice on boxes: You can start out with a pencil and simply draw out the boxes you need, starting from the big and working down to the small ones.</em>
+      </p>
+      </div>
+    </div>
+    <h2>Lesson 3</h2>
+    <div class="concept-title">
+    CSS Basics
+      <div class="concept-description">
+        <p><b>Selector</b> is the element that you want to apply certain CSS rules to. For example, if selector is <span class="code">&lt;h1&gt;</span>, it tells the browser to apply the rules to every <span class="code">&lt;h1&gt;</span> element. Everything between the curly braces will be interpreted as a <b>rule</b> that is applied to every <span class="code">&lt;h1&gt;</span> element, if we want to apply style to certain <span class="code">&lt;h1&gt;</span> elements, we can use class selectors.<br>The line of code that says <span class="code">background-color:black;</span> is a declaration. <span class="code">Background-color</span> is a <b>property</b> and black is the <b>value</b> of that property.
+      </p>
+        <div class="image"><img src="http://www.musepeep.com/wp-content/uploads/2012/09/main.gif"></div>
+      </div>
+    </div>
+      <div class="concept-title">
+    Three Ways to Include CSS Styling 
+      <div class="concept-description">
+      <p>1. Write CSS in the head of your HTML (small projects). 2. Link your HTML to a separate CSS file (larger projects - much more organised). 3. Write your style inline with your HTML (bad idea).
+
+      </p>
+      </div>
+    </div>
+      <div class="concept-title">
+    The Box Model
+      <div class="concept-description">
+        <p>All HTML elements are boxes and each box has 4 elements: <b>content</b>, <b>padding</b>, <b>boarder</b> and <b>margin</b>. The padding clears an area around the content and it’s affected by the background colour of the box. Boarder goes around the padding and the content. The boarder is inherited from the colour property of the box. Margin (like space between boxes). Margin clears an area around the border. The margin doesn’t have a background colour and is completely transparent.
+      </p>
+      </div>
+    </div>
+      <div class="concept-title">
+    Box Sizing and Positioning
+      <div class="concept-description">
+      <p>It can be hard to get the size of a box just right due to many components. There are two techniques that help with sizing issues: <br> 1) Set sizes in terms of percentages instead on pixels. <br> 2) Set the <span class="code">box-sizing</span> attribute to <span class="code">boarder-box</span> for every element. <span class="code">&lt;Div&gt;</span> elements are block, so by default they take up the entire width of a page. Adding the rule <span class="code">display:flex;</span> lets <span class="code">&lt;div&gt;</span> elements appear next to each other.
+      </p>
+      </div>
+    </div>
+      <div class="concept-title">
+    Code, Test, Refine
+      <div class="concept-description">
+      <p> 1) Look for natural boxes and places that are distinct.<br> 2) Look for repeated styles and semantic elements (work on the tags).<br> 3) Think about how you can relate this to HTML elements and write your HTML. Consider the size of boxes and how to position them on the screen.<br> 4) Apply styles, from biggest site-wide elements to smallest.<br> 5) Fix things, open in different browsers, resize screen size etc.
+      </p>
+      </div>
+    </div>
+    <h2>Useful Websites and Resources</h2>
+      <div class="concept-description">
+      <ul>
+       <li><a href="http://stackoverflow.com/questions">A Programming Q&A Community</a></li>
+       <li><a href="https://css-tricks.com/how-css-selectors-work/">How CSS Selectors Work</a></li>
+       <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">A Complete Guide to Flexbox</a></li>
+       <li><a href="https://validator.w3.org/#validate_by_input">HTML Validator</a></li>
+       <li><a href="http://jigsaw.w3.org/css-validator/#validate_by_input">CSS Validator</a></li>
+       <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Content_sectioning">HTML Element Reference</a></li>
+       <li><a href="http://www.htmlescape.net/htmlescape_tool.html">HTML Entities - Online tool</a></li>
+       <li><a href="https://github.com/udacity/ipnd-webcasts">IPND Webcasts</a></li>
+       <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS Reference</a></li>
+      </ul>  
+      </div>
+  </div>
+</body>
+</html>
+

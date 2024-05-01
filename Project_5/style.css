@@ -1,0 +1,87 @@
+
+*{
+    box-sizing: border-box;
+  }
+  
+  * {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      box-sizing: border-box;
+  } 
+  
+  body {
+    background-color: #3c948b;
+    padding: 20px 30px;
+    font-family: Verdana;
+    font-size: 16px
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 35px;
+      margin-top: -10px;
+      margin-bottom: -10px;
+      margin-left: 20px;
+      margin-right: 20px;
+      padding: 40px;
+        background-color: orange;
+          border-radius:10px;
+  }
+  
+  .lesson {
+    background-color: pink;
+    border-radius: 10px;
+    padding: 10px;
+      margin: 20px;
+  }
+  
+  h2 {
+    background-color: #a3a7a7;
+    text-align: center;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+  }
+  
+  .concept-title {
+    margin-left: 50px;
+      margin-right: 50px;
+      margin-top: 30px;
+      font-weight: bold;
+  }
+  
+  .concept-description {
+    display: flex;
+    font-weight: normal;
+    line-height: 23px;
+  }
+  
+  ul {
+      list-style-type: none;
+    margin-left: 10px;
+  }
+  
+  li {
+      line-height: 30px;
+  }
+  
+  .code {
+    font-family: Courier;
+      color : black;
+      font-weight: bold;
+    padding-left:  4px;
+      padding-right: 4px;
+  }
+  
+  img {
+      height: 200px;
+      width: 350px;
+      margin-left: 100px; 
+      margin-top: -20px; 
+      margin-bottom: -20px;
+      border-radius: 5px;
+  }
+  
+  
